@@ -1,0 +1,323 @@
+@media screen and (max-width:430px) {
+    .up{
+        width: 100%;
+        display: block;
+        text-align: center;
+       
+        padding: 20px 10px;
+      
+        background: #F5FBFF;
+    }
+    .icons{
+        padding-bottom: 10px;
+      
+    }
+    .icons i{
+       
+        color: rgb(150, 148, 148);
+    }
+    nav {
+        width: 50%;
+        text-align: left;
+        justify-content: center;
+    }
+    .nav-ber{
+        position: relative;
+    }
+    .logo1  img{
+        margin: 0;
+        margin: 2px 30px;
+      width: 150px;
+      align-items: left;
+     
+       
+      }
+    .logo1 {
+        position: absolute;
+        justify-content: left;
+        width: 100%;
+       background: white;
+       z-index: 1;
+       
+      }
+      .btn{
+      display: none;
+    }
+    nav ul{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+        margin-top: 30px;
+        background: white;
+       
+    }
+    nav ul li{
+       display: inline-block;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color:black;
+        padding: 0 2px;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .section2{
+
+        height: 390px;
+        background: url(image/d4.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .info{
+        padding: 0;
+        top: 25%;
+        left: 3%;
+    }
+    .info h1{
+        font-size: 42px;
+    }
+    .info h2{
+        font-size: 38px;
+    }
+    .info p{
+        line-height: 25px;
+    }
+    .section3{
+        height: 100%;
+        display: block;
+    }
+    .service{
+        width: 100%;
+        margin-left: 0px;
+        padding: 50px 30px;
+    }
+    .section4{
+        height: 1000px;
+    }
+    .info2{
+        width: 91%;
+        top: 74%;
+        left: 49%;
+    }
+    .img1{
+        width: 100%;
+    }
+    .img2{
+        display: none;
+    }
+    .img1 img{
+        width: 340px;
+        margin-top: 30%;
+        margin-left: 13%;
+    }
+    .section5{
+        height: 2500px;
+
+    }
+    .info3{
+        left: 48%;
+        top: 5%;
+        width: 88%;
+    }
+    .info3 h1{
+        width: 100%;
+        margin-bottom: 0;
+
+    }
+    .info3 p{
+        width: 100%;
+        line-height:22px;
+    }
+    .part{
+        width: 100%;
+        display: block;
+        flex-wrap: nowrap;
+        top: 55%;
+       }
+       .row{
+        width: 91%;
+    }
+    .section7{
+        height: 2500px;
+      
+    }
+    .title{
+        display:block;
+        align-items: right;
+        justify-content: right;
+        background: transparent;
+    }
+    .s1{
+        width: 100%;
+        display: block;
+        position: relative;
+        padding: 10px 10px;
+        font-weight: normal;
+    }
+    #s1{
+        background: white;
+    }
+    .infox1{
+        width: 100%;
+        display: block;
+        top: 5%;
+    }
+    .imgx img{
+        width: 360px;
+    }
+    .best_doctor{
+        width: 100%;
+        top: 64%;
+        left: 50%;
+        margin: 0;
+    }
+    .doctors{
+        row-gap: 20px;     
+    }
+    .doctors img{
+        width: 340px;
+    }
+    .ex{
+        font-size: 32px;
+        padding: 20px;
+        margin-left: 2%;
+    }
+    .section8{
+        height: 442px;
+    }
+    .blur {
+        height: 442px;
+    }
+    .cover {
+        flex-wrap: wrap;
+       background-size: cover;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+     .img >.cvx{
+        display: flex;
+        width: 400px;
+     }
+    .img > .cvy {
+        display: flex;
+        width: 390px;
+     }
+     .cv1,
+     .cv2{
+        display: none;
+     }
+     .cvx,
+     .cvy{
+       display: block;
+     }
+     .cvx{
+         width: 100%;
+         height: 50%;
+     }
+     .cvy{
+         width: 100%;
+         height: 50%;
+     }
+      .comment,
+     .comment2{
+        width: 131%;
+        top: 42%;
+        left: 77%;
+
+    }
+    .btx2 input,
+    .btx input{
+        top: 74%;
+        left: 73%;
+    }
+    .footer{
+        height: 1305px;
+        background: #1F1F1F;
+        display: block;
+    }
+
+  
+      
+   
+      
+    
+}
+@media screen and (min-width:1900px) {
+    .container{
+        width: 1900px;
+        margin: 0 auto;
+        background: white;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1500px)  {
+    .up{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 0 auto;
+        margin-bottom: 0;
+        color: white;
+        word-spacing: 10px;
+        background:transparent;
+    }
+    .nav-ber{
+        width: 100%;
+        padding: 20px;
+        z-index: 999;
+        background: white;
+    }
+    nav {
+        width: 85%;
+        margin: 0 auto;
+        background: white;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .img1 img{
+        width: 300px;
+        margin-top: 14%;
+        margin-left: 10%;
+    }
+    .img2 img{
+         width: 300px;
+         margin-top: -44%;
+         margin-left: 36%;
+    }
+    .part{
+        width: 99%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: transparent;
+        top: 59%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+       }
+       .row img{
+        width: 305px;
+    }
+    .infox1{
+        width: 90%;
+       top: 27%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+    }
+    .doctors img{
+        width: 65%;
+    }
+    .doctors{
+      
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+   
+}
